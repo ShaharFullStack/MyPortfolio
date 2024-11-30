@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -20,26 +19,3 @@ main {
     justify-content: center;
 }
 
-=======
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-body {
-    background: url("../../assets/images/projectsbg.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
-
-
-main {
-    display: flex;
-    justify-content: center;
-}
-
->>>>>>> 6d8723415d01a39c583ad2da33beef37cd1b20c6
