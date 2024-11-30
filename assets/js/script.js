@@ -1,3 +1,5 @@
+console.info("%cThis Page Was Created By\n%c %c    ©Shahar Maoz     \n%c%c  2023  %c %c  Israel  ", 'background-color: purple; color navy ; line-height: 12px; background-size: 40px; background-repeat: no-repeat; background-position: 10px 10px', "background: navy; border-radius:0.5em 0 0 0.5em; padding:0.2em 0em 0.1em 0.5em; color: white; font-weight: bold", "background: navy; border-radius:0 0.5em 0.5em 0; padding:0.2em 0.5em 0.1em 0em; color: white;", "", "background: #c3a650; border-radius:0.5em; padding:0.2em 0.5em 0.1em 0.5em; color: white;", "", "background: #15889f; border-radius:0.5em; padding:0.2em 0.5em 0.1em 0.5em; color: white;");
+
 document.addEventListener('DOMContentLoaded', function () {
     const params = new URLSearchParams(window.location.search);
     const viewClass = params.get('view') === '2' ? 'view-2' : 'view-1';
@@ -427,4 +429,3 @@ Math.easeOutElastic = function(e, t, n, i) {
     }
 }
 )();
-console.info("%c %cMade By %cShahar Maoz%caka RakLoZe  %c14.02.2024%c  %cIsrael", 'padding-left: 36px; line-height: 36px; ; background-size: 32px; background-repeat: no-repeat; background-position: 2px 2px', "background: #666; border-radius:0.5em 0 0 0.5em; padding:0.2em 0em 0.1em 0.5em; color: white; font-weight: bold", "background: #666; border-radius:0 0.5em 0.5em 0; padding:0.2em 0.5em 0.1em 0em; color: white;", "", "background: #c3a650; border-radius:0.5em; padding:0.2em 0.5em 0.1em 0.5em; color: white;", "", "background: #15889f; border-radius:0.5em; padding:0.2em 0.5em 0.1em 0.5em; color: white;");
